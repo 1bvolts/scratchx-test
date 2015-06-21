@@ -9,17 +9,17 @@
     };
 
     ext.greeting = function(name) {
-        return 'Hello, ' + name + '!';
+        return 'こんにちは、' + name + '!';
     };
 
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
             // Block type, block name, function name, param1 default value, param2 default value
-            ['r', 'greet %s', 'greeting', 'your name'],
+            ['r', '%s にあいさつ', 'greeting', '名前'],
         ]
     };
 
     // Register the extension
-    ScratchExtensions.register('Sample extension', descriptor, ext);
+    ScratchExtensions.register('greeting', descriptor, ext);
 })({});
