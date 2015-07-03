@@ -25,7 +25,7 @@
         blocks: [
             // Block type, block name, function name, param1 default value, param2 default value
             ['r', '%s にあいさつ', 'greeting', '名前'],
-            ['r', '%s の %n 文字めから %n 文字めまで', 'mysubstring', '文字列', 1, 2]
+            ['r', '%s の %n 文字めから %n 文字めまで', 'mysubstring', '文字列', 1, 2],
             ['r', '%s に %s が含まれる', 'contains', '文字列1', '文字列2']
 
         ]
